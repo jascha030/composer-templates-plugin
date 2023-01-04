@@ -42,5 +42,13 @@
         "psr-4": {
             "Jascha030\\TemplateInstaller\\": "tests/Unit/"
         }
+    },
+    "scripts": {
+        "phpunit": "tools/phpunit.phar",
+        "phpstan": "tools/phpstan",
+        "php-cs-fixer": "tools/php-cs-fixer",
+        "phive": "`which phive`",
+        "dev:install": "@phive install",
+        "dev:update": "@phive update"
     }
 }
