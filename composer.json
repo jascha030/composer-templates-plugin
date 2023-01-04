@@ -29,5 +29,15 @@
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "composer/composer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jascha030\\TemplateInstaller\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Jascha030\\TemplateInstaller\\": "tests/Unit/"
+        }
     }
 }
