@@ -1,7 +1,9 @@
 {
     "name": "jascha030/composer-templates-plugin",
     "type": "composer-plugin",
-    "license": "MIT",
+    "license": [
+        "MIT"
+    ],
     "authors": [
         {
             "name": "Jascha030",
@@ -13,16 +15,19 @@
         "platform": {
             "php": "8.0.2"
         },
-        "sort-packages": true
+        "sort-packages": true,
+        "optimize-autoloader": true,
+        "preferred-install": {
+            "*": "dist"
+        }
     },
     "require": {
-        "php": "~8.0||~8.1||~8.2",
+        "php": "^8.0",
         "composer-plugin-api": "^2.3",
-        "illuminate/collections": "*",
         "symfony/console": "^6.0"
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "composer/composer": "^2.2"
+        "composer/composer": "^2.3"
     }
 }
