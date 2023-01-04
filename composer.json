@@ -30,6 +30,9 @@
         "roave/security-advisories": "dev-latest",
         "composer/composer": "^2.3"
     },
+    "extra": {
+        "class": "Jascha030\\TemplateInstaller\\Composer\\Installer\\Plugin"
+    },
     "autoload": {
         "psr-4": {
             "Jascha030\\TemplateInstaller\\": "src/"
