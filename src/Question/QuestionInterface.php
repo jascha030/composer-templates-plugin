@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Jascha030\TemplateInstaller\Composer\Question;
+namespace Jascha030\TemplateInstaller\Question;
 
 interface QuestionInterface
 {
