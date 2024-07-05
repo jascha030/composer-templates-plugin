@@ -28,7 +28,7 @@
     },
     "require-dev": {
         "roave/security-advisories": "dev-latest",
-        "composer/composer": "^2.3"
+        "composer/composer": "^2.7"
     },
     "extra": {
         "class": "Jascha030\\TemplateInstaller\\Composer\\Installer\\Plugin"
